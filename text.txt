@@ -1,6 +1,7 @@
 git init - сделать папку репозиторием
 git add < --all | -A | . | filename.txt > - добавить в индекс файлы [файл]
 git restore --staged text.txt - убрать файл из индекса
+git log <-3, -p> - просмотр истории коммитов
 
 git config --list - просмотр и внесение информации о пользователе
 git config --global user.name "tvg" - изменение имени пользователя в config файле
